@@ -4,27 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <Button
-        android:layout_width="wrap_content"
+    tools:context=".InsertActivity"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Words"
-        android:textSize="25sp"
-        android:layout_gravity="center"
-        android:id="@+id/btnWords"
-        android:layout_margin="20sp"/>
+        android:hint="Enter word"
+        android:id="@+id/etWord"
+    android:layout_margin="20sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter meaning"
+        android:id="@+id/etMeaning"
+        android:layout_margin="20dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add"
-        android:textSize="25sp"
         android:layout_gravity="center"
-        android:id="@+id/btnAdd"
-        android:layout_margin="20sp"/>
-
-
+        android:id="@+id/btnAdd"/>
 
 
 </LinearLayout>
